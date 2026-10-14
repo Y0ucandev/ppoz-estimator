@@ -1,0 +1,29 @@
+@use '../abstracts' as *;
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-md);
+  line-height: 1.5;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  @include focus-ring;
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--space-4);
+  top: -100px;
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-surface);
+
+  &:focus {
+    top: var(--space-2);
+  }
+}

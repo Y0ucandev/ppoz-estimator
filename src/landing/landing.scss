@@ -1,0 +1,61 @@
+@use '../styles/abstracts' as *;
+@use '../styles/base/reset';
+@use '../styles/base/typography';
+@use '../styles/components/button';
+
+.landing-header {
+  @include container;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: var(--space-4);
+
+  &__brand {
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+}
+
+.hero {
+  @include container;
+  display: grid;
+  gap: var(--space-6);
+  justify-items: start;
+  padding-block: var(--space-12);
+
+  &__title {
+    max-width: 18ch;
+    font-size: var(--font-size-hero);
+    line-height: 1.1;
+  }
+
+  &__lead {
+    max-width: 60ch;
+    font-size: var(--font-size-lg);
+    color: var(--color-text-muted);
+  }
+}
+
+.features {
+  @include container;
+  display: grid;
+  gap: var(--space-4);
+  padding-block: var(--space-8);
+
+  &__list {
+    display: grid;
+    gap: var(--space-3);
+    padding-left: var(--space-6);
+
+    @include from($breakpoint-md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+.landing-footer {
+  @include container;
+  padding-block: var(--space-8);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}

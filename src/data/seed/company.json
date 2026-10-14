@@ -1,0 +1,12 @@
+{
+  "name": "Przykładowa Firma PPOŻ Sp. z o.o.",
+  "taxId": "0000000000",
+  "address": {
+    "street": "ul. Przykładowa 1",
+    "postalCode": "00-000",
+    "city": "Lublin"
+  },
+  "email": "biuro@example.com",
+  "phone": "000 000 000",
+  "bankAccount": "00 0000 0000 0000 0000 0000 0000"
+}

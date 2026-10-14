@@ -1,0 +1,271 @@
+{
+  "items": [
+    {
+      "id": "mat-control-panel-addressable-2l",
+      "kind": "material",
+      "category": "controlPanel",
+      "name": "Centrala sygnalizacji pożarowej adresowalna, 2 pętle",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 980000,
+      "defaultVatRate": "23"
+    },
+    {
+      "id": "mat-control-panel-conventional-4z",
+      "kind": "material",
+      "category": "controlPanel",
+      "name": "Centrala sygnalizacji pożarowej konwencjonalna, 4 strefy",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 220000,
+      "defaultVatRate": "23"
+    },
+    {
+      "id": "mat-smoke-detector-optical",
+      "kind": "material",
+      "category": "detector",
+      "name": "Czujka dymu optyczna adresowalna",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 15000,
+      "defaultVatRate": "23"
+    },
+    {
+      "id": "mat-heat-detector",
+      "kind": "material",
+      "category": "detector",
+      "name": "Czujka ciepła adresowalna",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 13500,
+      "defaultVatRate": "23"
+    },
+    {
+      "id": "mat-multisensor-detector",
+      "kind": "material",
+      "category": "detector",
+      "name": "Czujka wielodetektorowa dym/ciepło",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 24000,
+      "defaultVatRate": "23"
+    },
+    {
+      "id": "mat-detector-base",
+      "kind": "material",
+      "category": "detector",
+      "name": "Gniazdo czujki",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 2500,
+      "defaultVatRate": "23"
+    },
+    {
+      "id": "mat-manual-call-point",
+      "kind": "material",
+      "category": "manualCallPoint",
+      "name": "Ręczny ostrzegacz pożarowy (ROP) adresowalny",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 16000,
+      "defaultVatRate": "23"
+    },
+    {
+      "id": "mat-sounder",
+      "kind": "material",
+      "category": "sounder",
+      "name": "Sygnalizator akustyczny",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 14000,
+      "defaultVatRate": "23"
+    },
+    {
+      "id": "mat-sounder-beacon",
+      "kind": "material",
+      "category": "sounder",
+      "name": "Sygnalizator akustyczno-optyczny",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 22000,
+      "defaultVatRate": "23"
+    },
+    {
+      "id": "mat-io-module",
+      "kind": "material",
+      "category": "module",
+      "name": "Moduł wejść/wyjść",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 38000,
+      "defaultVatRate": "23"
+    },
+    {
+      "id": "mat-short-circuit-isolator",
+      "kind": "material",
+      "category": "module",
+      "name": "Izolator zwarć",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 12000,
+      "defaultVatRate": "23"
+    },
+    {
+      "id": "mat-battery-17ah",
+      "kind": "material",
+      "category": "powerSupply",
+      "name": "Akumulator 12 V 17 Ah",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 18000,
+      "defaultVatRate": "23"
+    },
+    {
+      "id": "mat-buffer-power-supply",
+      "kind": "material",
+      "category": "powerSupply",
+      "name": "Zasilacz buforowy do urządzeń ppoż.",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 95000,
+      "defaultVatRate": "23"
+    },
+    {
+      "id": "mat-cable-yntksy",
+      "kind": "material",
+      "category": "cabling",
+      "name": "Przewód YnTKSY 1x2x0,8",
+      "unit": "m",
+      "unitNetPriceGrosze": 280,
+      "defaultVatRate": "23"
+    },
+    {
+      "id": "mat-cable-htksh-ph90",
+      "kind": "material",
+      "category": "cabling",
+      "name": "Przewód HTKSH PH90 1x2x1",
+      "unit": "m",
+      "unitNetPriceGrosze": 650,
+      "defaultVatRate": "23"
+    },
+    {
+      "id": "mat-fireproof-holders",
+      "kind": "material",
+      "category": "cabling",
+      "name": "Uchwyty ognioodporne, komplet 10 szt.",
+      "unit": "set",
+      "unitNetPriceGrosze": 4500,
+      "defaultVatRate": "23"
+    },
+    {
+      "id": "srv-detector-installation",
+      "kind": "service",
+      "category": "installation",
+      "name": "Montaż czujki z gniazdem",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 6000,
+      "defaultVatRate": "8",
+      "installationMinutes": 30
+    },
+    {
+      "id": "srv-manual-call-point-installation",
+      "kind": "service",
+      "category": "installation",
+      "name": "Montaż ROP",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 7000,
+      "defaultVatRate": "8",
+      "installationMinutes": 30
+    },
+    {
+      "id": "srv-sounder-installation",
+      "kind": "service",
+      "category": "installation",
+      "name": "Montaż sygnalizatora",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 7000,
+      "defaultVatRate": "8",
+      "installationMinutes": 30
+    },
+    {
+      "id": "srv-control-panel-installation",
+      "kind": "service",
+      "category": "installation",
+      "name": "Montaż i podłączenie centrali",
+      "unit": "pcs",
+      "unitNetPriceGrosze": 120000,
+      "defaultVatRate": "8",
+      "installationMinutes": 480
+    },
+    {
+      "id": "srv-cable-laying",
+      "kind": "service",
+      "category": "installation",
+      "name": "Ułożenie przewodu na uchwytach",
+      "unit": "m",
+      "unitNetPriceGrosze": 900,
+      "defaultVatRate": "8",
+      "installationMinutes": 3
+    },
+    {
+      "id": "srv-system-programming",
+      "kind": "service",
+      "category": "programming",
+      "name": "Programowanie systemu",
+      "unit": "h",
+      "unitNetPriceGrosze": 18000,
+      "defaultVatRate": "23",
+      "installationMinutes": 60
+    },
+    {
+      "id": "srv-commissioning",
+      "kind": "service",
+      "category": "commissioning",
+      "name": "Uruchomienie, pomiary i protokół odbioru",
+      "unit": "set",
+      "unitNetPriceGrosze": 150000,
+      "defaultVatRate": "23",
+      "installationMinutes": 480
+    },
+    {
+      "id": "srv-design",
+      "kind": "service",
+      "category": "design",
+      "name": "Projekt wykonawczy systemu sygnalizacji pożarowej",
+      "unit": "set",
+      "unitNetPriceGrosze": 350000,
+      "defaultVatRate": "23"
+    }
+  ],
+  "bundles": [
+    {
+      "id": "bnd-smoke-detector",
+      "name": "Dostawa i montaż czujki dymu z gniazdem",
+      "unit": "pcs",
+      "defaultVatRate": "23",
+      "components": [
+        { "catalogItemId": "mat-smoke-detector-optical", "quantity": 1 },
+        { "catalogItemId": "mat-detector-base", "quantity": 1 },
+        { "catalogItemId": "srv-detector-installation", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "bnd-manual-call-point",
+      "name": "Dostawa i montaż ROP",
+      "unit": "pcs",
+      "defaultVatRate": "23",
+      "components": [
+        { "catalogItemId": "mat-manual-call-point", "quantity": 1 },
+        { "catalogItemId": "srv-manual-call-point-installation", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "bnd-sounder-beacon",
+      "name": "Dostawa i montaż sygnalizatora akustyczno-optycznego",
+      "unit": "pcs",
+      "defaultVatRate": "23",
+      "components": [
+        { "catalogItemId": "mat-sounder-beacon", "quantity": 1 },
+        { "catalogItemId": "srv-sounder-installation", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "bnd-cable-htksh",
+      "name": "Dostawa i ułożenie przewodu HTKSH PH90",
+      "unit": "m",
+      "defaultVatRate": "23",
+      "components": [
+        { "catalogItemId": "mat-cable-htksh-ph90", "quantity": 1 },
+        { "catalogItemId": "mat-fireproof-holders", "quantity": 0.1 },
+        { "catalogItemId": "srv-cable-laying", "quantity": 1 }
+      ]
+    }
+  ]
+}
